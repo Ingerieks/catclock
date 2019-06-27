@@ -1,0 +1,90 @@
+body {
+    background-image: url(1231.jpg);
+    font: 15px/24px 'Cutive Mono', monospace;
+    color: rgb(0, 238, 255);
+    margin: 0px;
+    padding: 0px;
+    
+    }
+
+    .page {
+        width: 80%;
+        max-width: 960px;
+        margin: 0px 0px 0px 30px;
+        text-align: center;
+        background-color: #03111191;
+        border-radius: 5px;
+    }
+    header{
+        font-size: 16px;
+        line-height: 35px;
+      
+      }
+      
+      h4 {
+        font-size: 20px;
+        font-family: 'Cutive Mono', monospace;
+      }
+      h4 #clock {
+        font-size: 30px;
+        display: block;
+        padding: 5px 0px;
+      }
+
+      h1, h2, h3, h6 {
+        font-family: 'Cutive Mono', monospace;
+         
+    }
+      
+      #lolcatImage {
+        max-width:15em
+      }
+
+      blockquote {
+        font: 2em/1em 'Cutive Mono', monospace;
+        text-shadow: 2px 2px #000;
+        margin: -80px 0 30px 0;
+        color: rgb(12, 201, 226);
+      }
+      
+      blockquote:before { content: '"'; }
+      blockquote:after { content: '"'; }
+
+      #lolcat {
+        margin: 0 auto;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        border-radius: 10px;
+        border:10px solid #222;
+      }
+
+      #morningTimeSelector, #lunchTimeSelector, #afternoonTimeSelector {
+        padding: 5px 0;
+        display: block;
+        text-align: center;
+        margin-left: 60px;
+      }
+
+      #partyTimeButton {
+        background-color: rgb(34, 34, 34);
+        width: 200px;
+        font-family: 'Cutive Mono', monospace;
+        font-size: 18px;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 0;
+        margin-top: 20px;
+        margin-right: 0px;
+      }
+
+      @media only screen and (min-width: 992px) {
+          blockquote {
+            margin: -80px 0 100px 0;
+          }
+          #morningTimeSelector, #lunchTimeSelector, #afternoonTimeSelector {
+          margin-left: 440px;  
+        }
+      
+        } 
+
